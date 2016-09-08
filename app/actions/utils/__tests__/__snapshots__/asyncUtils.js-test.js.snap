@@ -1,0 +1,32 @@
+exports[`test builds a proper object for async actions on buildAsyncActions 1`] = `
+Object {
+  "error": [Error: Look ma, I am an error!],
+  "type": "TEST_API_FAILURE"
+}
+`;
+
+exports[`test builds a proper object for async actions on buildAsyncActions 2`] = `
+Object {
+  "type": "TEST_API_REQUEST"
+}
+`;
+
+exports[`test builds a proper object for async actions on buildAsyncActions 3`] = `
+Object {
+  "data": Array [
+    Object {
+      "id": 1,
+      "name": "Fake"
+    }
+  ],
+  "type": "TEST_API_SUCCESS"
+}
+`;
+
+exports[`test returns the proper action names for TEST_API on asyncActionNames 1`] = `
+Object {
+  "failure": "TEST_API_FAILURE",
+  "request": "TEST_API_REQUEST",
+  "success": "TEST_API_SUCCESS"
+}
+`;

@@ -1,0 +1,58 @@
+exports[`test renders a RepoPage using Snapshots 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "center"
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontSize": 20
+      }
+    }>
+    Loading...
+  </Text>
+</View>
+`;
+
+exports[`test renders a RepoPage using Snapshots 2`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "center"
+    }
+  }>
+  <RepoList
+    repos={
+      Array [
+        Object {
+          "description": "Useful description goes here.",
+          "id": 1,
+          "name": "Test 1",
+          "stargazers_count": 50000
+        },
+        Object {
+          "description": "Useful description goes here.",
+          "id": 2,
+          "name": "Test 2",
+          "stargazers_count": 10000
+        },
+        Object {
+          "description": "Useful description goes here.",
+          "id": 3,
+          "name": "Test 3",
+          "stargazers_count": 499
+        }
+      ]
+    }
+    selectRepo={undefined}
+    selected={undefined} />
+</View>
+`;

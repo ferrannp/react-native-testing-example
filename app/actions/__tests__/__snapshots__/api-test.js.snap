@@ -1,0 +1,27 @@
+exports[`test should handle TEST_API_FAILURE action 1`] = `
+Array [
+  Object {
+    "type": "TEST_API_REQUEST"
+  },
+  Object {
+    "error": [Error: Look ma! I am an error.],
+    "type": "TEST_API_FAILURE"
+  }
+]
+`;
+
+exports[`test should handle TEST_API_SUCCESS action 1`] = `
+Array [
+  Object {
+    "type": "TEST_API_REQUEST"
+  },
+  Object {
+    "data": Array [
+      Object {
+        "id": 1
+      }
+    ],
+    "type": "TEST_API_SUCCESS"
+  }
+]
+`;

@@ -1,0 +1,72 @@
+exports[`test handles LOAD_REPOS_FAILURE action 1`] = `
+Object {
+  "error": [Error: Look ma! I am an error],
+  "isLoading": false,
+  "repos": null,
+  "selected": null
+}
+`;
+
+exports[`test handles LOAD_REPOS_REQUEST action 1`] = `
+Object {
+  "error": null,
+  "isLoading": true,
+  "repos": null,
+  "selected": null
+}
+`;
+
+exports[`test handles LOAD_REPOS_SUCCESS action 1`] = `
+Object {
+  "error": null,
+  "isLoading": false,
+  "repos": Array [
+    Object {
+      "description": "Useful description goes here.",
+      "id": 1,
+      "name": "Test 1",
+      "stargazers_count": 50000
+    },
+    Object {
+      "description": "Useful description goes here.",
+      "id": 2,
+      "name": "Test 2",
+      "stargazers_count": 10000
+    },
+    Object {
+      "description": "Useful description goes here.",
+      "id": 3,
+      "name": "Test 3",
+      "stargazers_count": 499
+    }
+  ],
+  "selected": null
+}
+`;
+
+exports[`test handles SELECT_REPO action 1`] = `
+Object {
+  "error": null,
+  "isLoading": false,
+  "repos": null,
+  "selected": 1
+}
+`;
+
+exports[`test handles SELECT_REPO action 2`] = `
+Object {
+  "error": null,
+  "isLoading": false,
+  "repos": null,
+  "selected": null
+}
+`;
+
+exports[`test returns the same state on an unhandled action 1`] = `
+Object {
+  "error": null,
+  "isLoading": false,
+  "repos": null,
+  "selected": null
+}
+`;

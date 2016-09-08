@@ -1,0 +1,126 @@
+exports[`test renders a RepoItem using Snapshots 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function bound touchableHandleResponderGrant]}
+  onResponderMove={[Function bound touchableHandleResponderMove]}
+  onResponderRelease={[Function bound touchableHandleResponderRelease]}
+  onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+  onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+  onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent"
+      },
+      undefined
+    ]
+  }
+  testID={undefined}>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 24,
+        "paddingVertical": 8
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "paddingBottom": 4
+        }
+      }>
+      Test 1
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "paddingBottom": 8
+        }
+      }>
+      50000 stars
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`test renders a selected RepoItem using Snapshots 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function bound touchableHandleResponderGrant]}
+  onResponderMove={[Function bound touchableHandleResponderMove]}
+  onResponderRelease={[Function bound touchableHandleResponderRelease]}
+  onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+  onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+  onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent"
+      },
+      undefined
+    ]
+  }
+  testID={undefined}>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 24,
+          "paddingVertical": 8
+        },
+        Object {
+          "backgroundColor": "#B2DFDB"
+        }
+      ]
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "paddingBottom": 4
+        }
+      }>
+      Test 1
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "paddingBottom": 8
+        }
+      }>
+      50000 stars
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail">
+      Useful description goes here.
+    </Text>
+  </View>
+</View>
+`;

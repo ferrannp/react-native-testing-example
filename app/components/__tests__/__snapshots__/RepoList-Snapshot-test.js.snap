@@ -1,0 +1,194 @@
+exports[`test renders a RepoList using Snapshots 1`] = `
+<ScrollView
+  contentContainerStyle={
+    Object {
+      "paddingVertical": 40
+    }
+  }
+  dataSource={
+    ListViewDataSource {
+      "items": 3
+    }
+  }
+  initialListSize={10}
+  onContentSizeChange={[Function bound _onContentSizeChange]}
+  onEndReachedThreshold={1000}
+  onKeyboardDidHide={undefined}
+  onKeyboardDidShow={undefined}
+  onKeyboardWillHide={undefined}
+  onKeyboardWillShow={undefined}
+  onLayout={[Function bound _onLayout]}
+  onScroll={[Function bound _onScroll]}
+  pageSize={1}
+  removeClippedSubviews={true}
+  renderRow={[Function renderRow]}
+  scrollEventThrottle={50}
+  scrollRenderAheadDistance={1000}
+  stickyHeaderIndices={Array []}>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function bound touchableHandleResponderGrant]}
+    onResponderMove={[Function bound touchableHandleResponderMove]}
+    onResponderRelease={[Function bound touchableHandleResponderRelease]}
+    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent"
+        },
+        undefined
+      ]
+    }
+    testID={undefined}>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 24,
+          "paddingVertical": 8
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "paddingBottom": 4
+          }
+        }>
+        Test 1
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "paddingBottom": 8
+          }
+        }>
+        50000 stars
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function bound touchableHandleResponderGrant]}
+    onResponderMove={[Function bound touchableHandleResponderMove]}
+    onResponderRelease={[Function bound touchableHandleResponderRelease]}
+    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent"
+        },
+        undefined
+      ]
+    }
+    testID={undefined}>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 24,
+          "paddingVertical": 8
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "paddingBottom": 4
+          }
+        }>
+        Test 2
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "paddingBottom": 8
+          }
+        }>
+        10000 stars
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function bound touchableHandleResponderGrant]}
+    onResponderMove={[Function bound touchableHandleResponderMove]}
+    onResponderRelease={[Function bound touchableHandleResponderRelease]}
+    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
+    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
+    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent"
+        },
+        undefined
+      ]
+    }
+    testID={undefined}>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 24,
+          "paddingVertical": 8
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "paddingBottom": 4
+          }
+        }>
+        Test 3
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "paddingBottom": 8
+          }
+        }>
+        499 stars
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;

@@ -1,0 +1,6 @@
+exports[`test creates a SELECT_REPO action 1`] = `
+Object {
+  "id": 1000,
+  "type": "SELECT_REPO"
+}
+`;
