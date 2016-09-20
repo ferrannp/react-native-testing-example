@@ -28,6 +28,7 @@ it('handles LOAD_REPOS_SUCCESS action', () => {
   // A bit better... (still rewriting the reducer behavior)
   expect(repos(initialState, receiveRepos.success(data))).toEqual({
     ...initialState,
+    isLoading: false,
     repos: data
   });
   // BOOM. If we change that specific reducer case, we'll compare the Snapshot results

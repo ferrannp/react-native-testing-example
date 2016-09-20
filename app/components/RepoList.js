@@ -7,9 +7,10 @@ import {
 
 import RepoItem from './RepoItem';
 
+const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id});
+
 const RepoList = (props) => {
   const { repos, selected, selectRepo } = props;
-  const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id});
   const dataSource = ds.cloneWithRows(repos);
   return (
     <ListView
