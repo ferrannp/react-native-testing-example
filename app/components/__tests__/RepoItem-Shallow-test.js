@@ -19,7 +19,7 @@ const repo = repos[0];
 //   const wrapper = shallow(
 //     <RepoItem
 //       repo={repo}
-//       selectRepo={jest.fn}
+//       selectRepo={jest.fn(}
 //     />
 //   );
 //
@@ -41,7 +41,7 @@ it('renders a RepoItem using Enzyme 1', () => {
   const wrapper = shallow(
     <RepoItem
       repo={repo}
-      selectRepo={jest.fn}
+      selectRepo={jest.fn()}
     />
   );
   
@@ -58,7 +58,7 @@ it('renders a RepoItem using Enzyme 2', () => {
   const wrapper = shallow(
     <RepoItem
       repo={repo}
-      selectRepo={jest.fn}
+      selectRepo={jest.fn()}
     />
   );
   
@@ -71,7 +71,7 @@ it('renders a selected RepoItem using Enzyme 1', () => {
     <RepoItem
       isSelected
       repo={repo}
-      selectRepo={jest.fn}
+      selectRepo={jest.fn()}
     />
   );
   
@@ -91,7 +91,7 @@ it('renders a selected RepoItem using Enzyme 2', () => {
     <RepoItem
       isSelected
       repo={repo}
-      selectRepo={jest.fn}
+      selectRepo={jest.fn()}
     />
   );
   

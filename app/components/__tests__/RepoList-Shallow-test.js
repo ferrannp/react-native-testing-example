@@ -15,7 +15,7 @@ it('renders a RepoList using Enzyme', () => {
   const wrapper = shallow(
     <RepoList
       repos={repos}
-      selectRepo={jest.fn}
+      selectRepo={jest.fn()}
     />
   );
   

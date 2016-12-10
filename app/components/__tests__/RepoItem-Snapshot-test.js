@@ -8,9 +8,16 @@ it('renders a RepoItem using Snapshots', () => {
   expect(renderer.create(
     <RepoItem
       repo={repos[0]}
-      selectRepo={jest.fn}
+      selectRepo={jest.fn()}
     />
   )).toMatchSnapshot();
+  
+  const component = renderer.create(
+    <RepoItem
+      repo={repos[0]}
+      selectRepo={jest.fn()}
+    />
+  );
 });
 
 it('renders a selected RepoItem using Snapshots', () => {
@@ -18,7 +25,7 @@ it('renders a selected RepoItem using Snapshots', () => {
     <RepoItem
       isSelected
       repo={repos[0]}
-      selectRepo={jest.fn}
+      selectRepo={jest.fn()}
     />
   )).toMatchSnapshot();
 });

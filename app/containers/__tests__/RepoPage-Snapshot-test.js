@@ -13,15 +13,15 @@ it('renders a RepoPage using Snapshots', () => {
       renderer.create(
         <RepoPage
           repos={props}
-          getRepos={jest.fn}
+          getRepos={jest.fn()}
         />
       )
     )
   };
   
-  let component = _getComponent({isLoading: true, repos: []});
+  let component = _getComponent({ isLoading: true, repos: [] });
   expect(component).toMatchSnapshot();
   
-  component = _getComponent({isLoading: false, repos: repos});
+  component = _getComponent({ isLoading: false, repos });
   expect(component).toMatchSnapshot();
 });
