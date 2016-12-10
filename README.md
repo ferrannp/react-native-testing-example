@@ -10,7 +10,7 @@ This is the example repo for:
 Install dependencies:
 
 ```
-$ npm test
+$ npm install
 ```
 
 Run tests:
