@@ -1,30 +1,33 @@
-exports[`test renders a RepoList using Snapshots 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a RepoList using Snapshots 1`] = `
 <ScrollView
   contentContainerStyle={
     Object {
-      "paddingVertical": 40
+      "paddingVertical": 40,
     }
   }
   dataSource={
     ListViewDataSource {
-      "items": 3
+      "items": 3,
     }
   }
   initialListSize={10}
-  onContentSizeChange={[Function bound _onContentSizeChange]}
+  onContentSizeChange={[Function]}
   onEndReachedThreshold={1000}
   onKeyboardDidHide={undefined}
   onKeyboardDidShow={undefined}
   onKeyboardWillHide={undefined}
   onKeyboardWillShow={undefined}
-  onLayout={[Function bound _onLayout]}
-  onScroll={[Function bound _onScroll]}
+  onLayout={[Function]}
+  onScroll={[Function]}
   pageSize={1}
   removeClippedSubviews={true}
-  renderRow={[Function renderRow]}
+  renderRow={[Function]}
   scrollEventThrottle={50}
   scrollRenderAheadDistance={1000}
-  stickyHeaderIndices={Array []}>
+  stickyHeaderIndices={Array []}
+>
   <View
     accessibilityComponentType={undefined}
     accessibilityLabel={undefined}
@@ -32,28 +35,30 @@ exports[`test renders a RepoList using Snapshots 1`] = `
     accessible={true}
     hitSlop={undefined}
     onLayout={undefined}
-    onResponderGrant={[Function bound touchableHandleResponderGrant]}
-    onResponderMove={[Function bound touchableHandleResponderMove]}
-    onResponderRelease={[Function bound touchableHandleResponderRelease]}
-    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
-    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
-    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
-          "backgroundColor": "transparent"
+          "backgroundColor": "transparent",
         },
-        undefined
+        undefined,
       ]
     }
-    testID={undefined}>
+    testID={undefined}
+  >
     <View
       style={
         Object {
           "paddingHorizontal": 24,
-          "paddingVertical": 8
+          "paddingVertical": 8,
         }
-      }>
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -62,9 +67,10 @@ exports[`test renders a RepoList using Snapshots 1`] = `
           Object {
             "fontSize": 16,
             "fontWeight": "bold",
-            "paddingBottom": 4
+            "paddingBottom": 4,
           }
-        }>
+        }
+      >
         Test 1
       </Text>
       <Text
@@ -73,9 +79,10 @@ exports[`test renders a RepoList using Snapshots 1`] = `
         ellipsizeMode="tail"
         style={
           Object {
-            "paddingBottom": 8
+            "paddingBottom": 8,
           }
-        }>
+        }
+      >
         50000 stars
       </Text>
     </View>
@@ -87,28 +94,30 @@ exports[`test renders a RepoList using Snapshots 1`] = `
     accessible={true}
     hitSlop={undefined}
     onLayout={undefined}
-    onResponderGrant={[Function bound touchableHandleResponderGrant]}
-    onResponderMove={[Function bound touchableHandleResponderMove]}
-    onResponderRelease={[Function bound touchableHandleResponderRelease]}
-    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
-    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
-    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
-          "backgroundColor": "transparent"
+          "backgroundColor": "transparent",
         },
-        undefined
+        undefined,
       ]
     }
-    testID={undefined}>
+    testID={undefined}
+  >
     <View
       style={
         Object {
           "paddingHorizontal": 24,
-          "paddingVertical": 8
+          "paddingVertical": 8,
         }
-      }>
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -117,9 +126,10 @@ exports[`test renders a RepoList using Snapshots 1`] = `
           Object {
             "fontSize": 16,
             "fontWeight": "bold",
-            "paddingBottom": 4
+            "paddingBottom": 4,
           }
-        }>
+        }
+      >
         Test 2
       </Text>
       <Text
@@ -128,9 +138,10 @@ exports[`test renders a RepoList using Snapshots 1`] = `
         ellipsizeMode="tail"
         style={
           Object {
-            "paddingBottom": 8
+            "paddingBottom": 8,
           }
-        }>
+        }
+      >
         10000 stars
       </Text>
     </View>
@@ -142,28 +153,30 @@ exports[`test renders a RepoList using Snapshots 1`] = `
     accessible={true}
     hitSlop={undefined}
     onLayout={undefined}
-    onResponderGrant={[Function bound touchableHandleResponderGrant]}
-    onResponderMove={[Function bound touchableHandleResponderMove]}
-    onResponderRelease={[Function bound touchableHandleResponderRelease]}
-    onResponderTerminate={[Function bound touchableHandleResponderTerminate]}
-    onResponderTerminationRequest={[Function bound touchableHandleResponderTerminationRequest]}
-    onStartShouldSetResponder={[Function bound touchableHandleStartShouldSetResponder]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
-          "backgroundColor": "transparent"
+          "backgroundColor": "transparent",
         },
-        undefined
+        undefined,
       ]
     }
-    testID={undefined}>
+    testID={undefined}
+  >
     <View
       style={
         Object {
           "paddingHorizontal": 24,
-          "paddingVertical": 8
+          "paddingVertical": 8,
         }
-      }>
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -172,9 +185,10 @@ exports[`test renders a RepoList using Snapshots 1`] = `
           Object {
             "fontSize": 16,
             "fontWeight": "bold",
-            "paddingBottom": 4
+            "paddingBottom": 4,
           }
-        }>
+        }
+      >
         Test 3
       </Text>
       <Text
@@ -183,9 +197,10 @@ exports[`test renders a RepoList using Snapshots 1`] = `
         ellipsizeMode="tail"
         style={
           Object {
-            "paddingBottom": 8
+            "paddingBottom": 8,
           }
-        }>
+        }
+      >
         499 stars
       </Text>
     </View>

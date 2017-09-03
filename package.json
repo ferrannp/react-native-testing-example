@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "react": "15.3.1",
-    "react-native": "0.32.0",
+    "react-native": "0.40.0",
     "react-redux": "4.4.5",
     "redux": "3.5.2",
     "redux-thunk": "2.1.0"
@@ -19,17 +19,18 @@
     "babel-jest": "15.0.0",
     "babel-preset-react-native": "1.9.0",
     "enzyme": "^2.4.1",
-    "jest": "15.1.1",
-    "jest-react-native": "15.0.0",
+    "jest": "20.0.4",
     "react-addons-test-utils": "15.3.1",
     "react-dom": "15.3.1",
     "react-test-renderer": "15.3.1",
-    "redux-mock-store": "1.1.4"
+    "redux-mock-store": "1.1.4",
+    "snapshot-diff": "0.2.1"
   },
   "jest": {
-    "preset": "jest-react-native",
+    "preset": "react-native",
     "setupFiles": [
       "./config/jest/globalFetch.js"
-    ]
+    ],
+    "setupTestFrameworkScriptFile": "./config/jest/snapshotDiff.js"
   }
 }

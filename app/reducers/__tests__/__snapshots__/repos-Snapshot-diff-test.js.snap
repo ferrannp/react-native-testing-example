@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LOAD_REPOS_FAILURE with toMatchDiffSnapshot 1`] = `
+Snapshot Diff:
+- Initial state
++ Failure state
+
+@@ -2,1 +2,1 @@
+-  "error": null,
++  "error": [Error: Look ma! I am an error],
+`;
+
+exports[`compare with toMatchDiffSnapshot 1`] = `
+Snapshot Diff:
+- First value
++ Second value
+
+@@ -4,1 +4,20 @@
+-  "repos": null,
++  "repos": Array [
++    Object {
++      "description": "Useful description goes here.",
++      "id": 1,
++      "name": "Test 1",
++      "stargazers_count": 50000,
++    },
++    Object {
++      "description": "Useful description goes here.",
++      "id": 2,
++      "name": "Test 2",
++      "stargazers_count": 10000,
++    },
++    Object {
++      "description": "Useful description goes here.",
++      "id": 3,
++      "name": "Test 3",
++      "stargazers_count": 499,
++    },
++  ],
+`;

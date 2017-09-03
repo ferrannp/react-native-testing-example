@@ -1,11 +1,14 @@
-exports[`test renders a RepoPage using Snapshots 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a RepoPage using Snapshots 1`] = `
 <View
   style={
     Object {
       "flex": 1,
-      "justifyContent": "center"
+      "justifyContent": "center",
     }
-  }>
+  }
+>
   <Text
     accessible={true}
     allowFontScaling={true}
@@ -13,22 +16,24 @@ exports[`test renders a RepoPage using Snapshots 1`] = `
     style={
       Object {
         "alignSelf": "center",
-        "fontSize": 20
+        "fontSize": 20,
       }
-    }>
+    }
+  >
     Loading...
   </Text>
 </View>
 `;
 
-exports[`test renders a RepoPage using Snapshots 2`] = `
+exports[`renders a RepoPage using Snapshots 2`] = `
 <View
   style={
     Object {
       "flex": 1,
-      "justifyContent": "center"
+      "justifyContent": "center",
     }
-  }>
+  }
+>
   <RepoList
     repos={
       Array [
@@ -36,23 +41,24 @@ exports[`test renders a RepoPage using Snapshots 2`] = `
           "description": "Useful description goes here.",
           "id": 1,
           "name": "Test 1",
-          "stargazers_count": 50000
+          "stargazers_count": 50000,
         },
         Object {
           "description": "Useful description goes here.",
           "id": 2,
           "name": "Test 2",
-          "stargazers_count": 10000
+          "stargazers_count": 10000,
         },
         Object {
           "description": "Useful description goes here.",
           "id": 3,
           "name": "Test 3",
-          "stargazers_count": 499
-        }
+          "stargazers_count": 499,
+        },
       ]
     }
     selectRepo={undefined}
-    selected={undefined} />
+    selected={undefined}
+  />
 </View>
 `;

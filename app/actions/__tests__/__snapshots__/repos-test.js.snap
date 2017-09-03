@@ -1,6 +1,8 @@
-exports[`test creates a SELECT_REPO action 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates a SELECT_REPO action 1`] = `
 Object {
   "id": 1000,
-  "type": "SELECT_REPO"
+  "type": "SELECT_REPO",
 }
 `;
