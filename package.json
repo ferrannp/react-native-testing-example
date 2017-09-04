@@ -19,7 +19,7 @@
     "babel-jest": "15.0.0",
     "babel-preset-react-native": "1.9.0",
     "enzyme": "^2.4.1",
-    "jest": "20.0.4",
+    "jest": "21.0.0",
     "react-addons-test-utils": "15.3.1",
     "react-dom": "15.3.1",
     "react-test-renderer": "15.3.1",
